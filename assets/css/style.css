@@ -1,0 +1,187 @@
+/* root start*/
+:root {
+    --fontcvt: 'Caveat';
+    --fontopnsns1: 'Open Sans SemiCondensed';
+    --fontopnsns2: 'Open Sans Condensed';
+    --fontopnsns3: 'Open Sans Condensed Light';
+    --fontopnsns4: 'OpenSans-Bold';
+    --fontmaticula: 'Meticula';
+    --blue: #22BCC4;
+    --lightblue: #e9f4f5;
+    --yellow: #EAD16A;
+    --pink: #dd3b79;
+    --gray: #F8f8ff;
+    --offwhite: #fcfcfc;
+}
+
+/* root end*/
+/* universal class start */
+
+
+.intro {
+    text-align: justify;
+}
+
+.btn {
+    border-color: var(--blue) !important;
+    font-family: var(--fontopnsns2) !important;
+}
+
+.white-background {
+    background-color: var(--gray);
+}
+
+.highlight-uiux {
+    color: var(--blue);
+}
+
+.highlight {
+    color: var(--blue);
+}
+
+.title0 {
+    color: var(--blue);
+}
+
+.title1 {
+    font-family: var(--fontcvt);
+    color: var(--blue);
+}
+
+.title2 {
+    font-family: var(--fontopnsns4);
+}
+
+.ri-arrow-up-double-fill {
+    text-decoration: none;
+}
+
+/* universal class start */
+/* navbar css start */
+.nav-link {
+    font-family: var(--fontopnsns2);
+}
+
+.navbar {
+    background-color: var(--gray);
+}
+
+/* navbar css end */
+
+/* main banner css start */
+.name {
+    font-family: var(--fontopnsns1);
+}
+
+.highlight {
+    font-family: var(--fontopnsns3);
+}
+/*  */
+.rbt_icon{
+    width: 50px;
+  }
+  /*  */
+/* main banner css end */
+
+/* portfolio css start */
+/* whyme css start */
+.card {
+    background-color: var(--gray) !important;
+}
+
+.card-title {
+    font-family: var(--fontopnsns4) !important;
+}
+
+.card-text {
+    font-family: var(--fontopnsns1) !important;
+    text-align: justify;
+
+}
+
+/* whyme css end */
+/* portfolio css end */
+
+/* FAQ CSS start */
+.accordion-button {
+    background-color: var(--gray) !important;
+    font-family: var(--fontopnsns2);
+}
+
+.accordion-body {
+    font-family: var(--fontopnsns2);
+}
+
+.accordion-collapse {
+    background-color: var(--offwhite);
+}
+
+/* FAQ CSS end */
+
+/* footer css start */
+
+.aboutme-details {
+    font-family: var(--fontopnsns2);
+    text-align: justify;
+}
+
+.ri-linkedin-fill,
+.ri-github-fill,
+.ri-behance-fill,
+.ri-whatsapp-line,
+.ri-instagram-line {
+    color: var(--pink);
+    text-decoration: none;
+}
+
+/* footer css end */
+/* ------------------------------------------About me page css start------------------------------------------------ */
+.aboutme-detail,
+.aboutme-title {
+    font-family: var(--fontopnsns2);
+}
+
+.detail {
+    font-family: var(--fontopnsns1);
+}
+
+.meet {
+    font-family: var(--fontopnsns2);
+}
+
+.quote {
+    color: var(--pink);
+    font-family: var(--fontmaticula);
+}
+
+.title3 {
+    color: var(--pink);
+}
+
+
+
+/* ------------------------------------------About me page css end------------------------------------------------ */
+/* ------------------------------------------projects & other page zoom css start------------------------------------------------ */
+
+.zoom {
+    padding: 50px;
+    transition: transform .4s; /* Animation */   
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+/* ------------------------------------------projects page zoom css end------------------------------------------------ */
+/* ------------------------------------------illustration page css start------------------------------------------------ */
+.zoomi {
+    padding: 50px;
+    transition: transform .4s; /* Animation */   
+    margin: 0 auto;
+  }
+  
+  .zoomi:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  /* ------------------------------------------illustration page css end------------------------------------------------ */
+ 
